@@ -22,3 +22,7 @@ $breadcrumbs-margin-top: 30;
 .breadcrumbs {
     margin-top: rem-calc($breadcrumbs-margin-top);
 }
+
+.footer-copyright, .footer-tag-line {
+   display: none;
+}

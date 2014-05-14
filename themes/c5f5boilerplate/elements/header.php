@@ -16,11 +16,10 @@
 <body>
 
 <div class="row">
-    <div class="small-12 columns">
-        <?php 
+        <?php
             $a = new GlobalArea('Header Nav');
             $a->display();
         ?>
-    </div>
 </div>
 <!-- end header.php -->
+
