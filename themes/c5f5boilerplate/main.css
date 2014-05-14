@@ -1,3 +1,4 @@
+@import url(bower_components/remodal/dist/jquery.remodal.css);
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5648,7 +5649,7 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 11, scss/_custom.scss */
+/* line 13, scss/_custom.scss */
 .ccm-ui input,
 .ccm-ui textarea,
 .ccm-ui select,
@@ -5657,12 +5658,12 @@ th.hide-for-touch {
   height: 32px;
 }
 
-/* line 23, scss/_custom.scss */
+/* line 24, scss/_custom.scss */
 .breadcrumbs {
   margin-top: 1.875rem;
 }
 
-/* line 27, scss/_custom.scss */
+/* line 28, scss/_custom.scss */
 .footer-copyright, .footer-tag-line {
   display: none;
 }

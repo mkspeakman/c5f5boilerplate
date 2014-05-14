@@ -30,6 +30,8 @@
     </div>
 </div>
 
+<?php $this->inc('elements/remodal.php'); ?>
+
 <?php  
     $u = new User();
     if (!$u->isLoggedIn()) {  ?>
@@ -37,6 +39,7 @@
 <?php  } ?>
 <script src="<?php echo $this->getThemePath(); ?>/bower_components/foundation/js/foundation.min.js"></script>
 <script src="<?php echo $this->getThemePath(); ?>/js/app.js"></script>
+<script src="<?php echo $this->getThemePath(); ?>/bower_components/remodal/dist/jquery.remodal.min.js"></script>
 
 <?php  Loader::element('footer_required'); ?>
 
